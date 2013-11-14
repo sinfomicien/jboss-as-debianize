@@ -9,7 +9,7 @@ Homepage: http://www.jboss.org/jbossas/
 
 Package: jboss-as
 Architecture: all
-Depends: ${misc:Depends}, openjdk-7-jre
+Depends: ${misc:Depends}, openjdk-7-jre , jboss-as-libs
 Description: JBoss Application Server 
  A J2EE certified platform for developing and deploying enterprise Java
  applications, Web applications, and Portals, JBoss Application Server
@@ -22,14 +22,8 @@ Description: JBoss Application Server
  .
  This package contains jars used to run, shutdown or alter JBoss instance.
 
-Package: jboss-as-libs-amd64
-Architecture: amd64
-Depends: libc6 , libaio1 , ${misc:Depends}
-Description: JBoss Application Server Native libs
- Library dependency needed to run JBoss AS
-
-Package: jboss-as-libs-i386
-Architecture: i386
+Package: jboss-as-libs
+Architecture: all
 Depends: libc6 , libaio1 , ${misc:Depends}
 Description: JBoss Application Server Native libs
  Library dependency needed to run JBoss AS

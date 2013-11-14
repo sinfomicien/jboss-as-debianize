@@ -4,10 +4,14 @@ jboss-as-debianize
 JBoss AS 7 debianize scripts by me :)
 
 First you have to clone this repo:
+```
 git clone git@github.com:sinfomicien/jboss-as-debianize.git
+```
 
 Then download the jboss-as tar.gz file from:
-http://download.jboss.org/jbossas/7.1/jboss-as-7.1.1.Final/jboss-as-7.1.1.Final.tar.gz
+```
+wget http://download.jboss.org/jbossas/7.1/jboss-as-7.1.1.Final/jboss-as-7.1.1.Final.tar.gz
+```
 
 Then you rename it:
 ```

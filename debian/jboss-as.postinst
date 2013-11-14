@@ -3,7 +3,11 @@
 set -e
 . /usr/share/debconf/confmodule
 
-useradd -u 201 -d /usr/share/jboss-as -s /bin/bash jboss-as
+if id -u jboss-as >/dev/null 2>&1; then
+ usermod -d /usr/share/jboss-as -s /bin/bash jboss-as
+else
+ useradd --system -u 201 -d /usr/share/jboss-as -s /bin/bash jboss-as
+fi
 install -o jboss-as -m 0755 -d /var/log/jboss-as 
 chown jboss-as: -R /var/lib/jboss-as
 chown jboss-as: -R /etc/jboss-as/standalone

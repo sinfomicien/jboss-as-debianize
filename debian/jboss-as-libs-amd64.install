@@ -1,0 +1,2 @@
+modules/org/jboss/as/web/main/lib/linux-x86_64/* usr/lib/jboss-as/amd64
+modules/org/hornetq/main/lib/linux-x86_64/* usr/lib/jboss-as/amd64/hornetq

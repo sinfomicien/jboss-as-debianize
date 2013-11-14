@@ -1,0 +1,35 @@
+Source: jboss-as
+Section: java
+Priority: optional
+Maintainer: Nicolas Blanc <sinfomicien@gmail.com>
+Uploaders: Nicolas Blanc <sinfomicien@gmail.com>
+Build-Depends: debhelper (>= 9), dh-exec
+Standards-Version: 3.9.4
+Homepage: http://www.jboss.org/jbossas/
+
+Package: jboss-as
+Architecture: all
+Depends: ${misc:Depends}, java2-runtime
+Description: JBoss Application Server 
+ A J2EE certified platform for developing and deploying enterprise Java
+ applications, Web applications, and Portals, JBoss Application Server
+ provides the full range of J2EE 1.7 features as well as extended
+ enterprise services including clustering, caching, and persistence.
+ .
+ JBoss Application Server includes support for Enterprise Java Beans
+ (EJB) 3.0 which is designed to dramatically simplify the enterprise
+ Java programming model.
+ .
+ This package contains jars used to run, shutdown or alter JBoss instance.
+
+Package: jboss-as-libs-amd64
+Architecture: amd64
+Depends: libc6 , libaio1 , ${misc:Depends}
+Description: JBoss Application Server Native libs
+ Library dependency needed to run JBoss AS
+
+Package: jboss-as-libs-i386
+Architecture: i386
+Depends: libc6 , libaio1 , ${misc:Depends}
+Description: JBoss Application Server Native libs
+ Library dependency needed to run JBoss AS

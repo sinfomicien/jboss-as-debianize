@@ -1,0 +1,11 @@
+/var/lib/jboss-as/domain/ /usr/share/jboss-as/domain
+/var/lib/jboss-as/standalone/ /usr/share/jboss-as/standalone
+/etc/jboss-as/domain/ /var/lib/jboss-as/domain/configuration
+/etc/jboss-as/standalone/ /var/lib/jboss-as/standalone/configuration
+/etc/jboss-as/bin/appclient.conf /usr/share/jboss-as/bin/appclient.conf
+/etc/jboss-as/bin/domain.conf /usr/share/jboss-as/bin/domain.conf
+/etc/jboss-as/bin/standalone.conf /usr/share/jboss-as/bin/standalone.conf
+/usr/lib/jboss-as/x86 /usr/share/jboss-as/modules/org/jboss/as/web/main/lib/linux-i686
+/usr/lib/jboss-as/amd64 /usr/share/jboss-as/modules/org/jboss/as/web/main/lib/linux-x86_64
+/usr/lib/jboss-as/x86/hornetq /usr/share/jboss-as/modules/org/hornetq/main/lib/linux-i686
+/usr/lib/jboss-as/amd64/hornetq /usr/share/jboss-as/modules/org/hornetq/main/lib/linux-x86_64

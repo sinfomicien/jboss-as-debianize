@@ -1,0 +1,144 @@
+This package was debianized by Nicolas Blanc <sinfomicien@gmail.com> on
+Thu Nov 14 13:53:55 UTC 2013
+
+It was downloaded from http://www.jboss.org/jbossas/
+
+Upstream Author: JBoss Inc.
+
+Copyright: 
+    (C) 2005-2007 JBoss Inc., and authors
+    (C) 2005-2007 Red Hat Middleware LLC, and authors
+    (C) 2003-2006 Sun Microsystems, Inc.
+    (C) 1999-2005 The Apache Software Foundation.
+    (C) 1998-2000 Jason Dillon <jason@planet57.com>
+    (C) 1999-2002 Norman Walsh
+    (C) 1999-2000 BEA Systems, Inc. All Rights Reserved.
+    (C) 2000 Juha Lindfors
+    (C) 2001 ThoughtWorks, Inc.
+    (C) 2002-2003 Geir Landrö
+    (C) 2002 ObjectLearn. All Rights Reserved.
+    (C) 2003 Intracom S.A.
+    (C) 1992-2002 HaL Computer Systems, Inc.
+    (C) 1999 dreamBean Software
+    (C) 2003 ArborText, Inc., Norman Walsh, Sun Microsystems, Inc.
+    (C) 2004 World Wide Web Consortium
+    (C) 2006 Research In Motion
+    (C) 2006 Your Corporation. All Rights Reserved.
+
+Authors:
+    Aaron Mulder <ammulder@alumni.princeton.edu>
+    Adrian Brock <adrian@jboss.com>
+    Alex Fu <afu@novell.com>
+    Alexey Loubyansky <alex@jboss.org>
+    Anatoly Akkerman <akkerman@cs.nyu.edu>
+    Andreas Schaefer <andreas@jboss.com>
+    Andrew Rubinger <arubinge@redhat.com>
+    Andrew C. Oliver <acoliver@jbosss.org>
+    Andrew Rubinger <alr@alrubinger.com>
+    Andrew McCulloch <amccullo@sourceforge.new>
+    Andrew Belomutskiy <andrewarro@mail.ru>
+    Anil Saldhana <anil.saldhana@jboss.com>
+    Bill Burke <bill@burkecentral.com>
+    Brian Stansberry <brian.stansberry@jboss.com>
+    Carlo de Wolf <carlo@nerdnet.nl>
+    Chris Laprun <chris.laprun@jboss.com>
+    Christian Riege <criege@riege.com>
+    Christoph G. Jung <christoph.jung@jboss.org>
+    Claude Hussenet <chussenet@yahoo.com>
+    Clebert Suconic <clebert.suconic@jboss.com>
+    Corby Page <corby3000@hotmail.com>
+    Dain Sundstrom <dain@daingroup.com>
+    Dan Christopherson (danch) <danch@nvisia.com>
+    Dimitris Andreadis <dimitris@jboss.org>
+    Edward Kenworthy <edward.kenworthy@crispgroup.co.uk>
+    Galder Zamarreno <galder.zamarreno@jboss.com>
+    Heiko W. Rupp <heiko.rupp@cellent.de>
+    Heiko W. Rupp <hwr@pilhuhn.de>
+    Hiram Chirino <cojonudo14@hotmail.com>
+    Hiram Chirino <hiram@jboss.org>
+    Hugo Pinto <hugo@hugopinto.com>
+    Ignacio Coloma <icoloma@iverdino.com>
+    Ivelin Ivanov <ivelin@jboss.org>
+    James Wilson <jimmy.wilson@acxiom.com>
+    Jason Essington <jasone@greenrivercomputing.com>
+    Jason Dillon. <jason@planet57.com>
+    Jay Walters <jwalters@computer.org>
+    Jayesh Parayali <jayeshpk1@yahoo.com>
+    Jeff Haynie <jhaynie@vocalocity.net>
+    Jeremy Boynes <jeremy@boynes.com>
+    Jesper Pedersen <jep@worldleaguesports.com>
+    Jim Moran <jim.moran@jboss.org>
+    Joachim Van der Auwera <joachim@cabsoft.be>
+    John Freeborg <john-jboss@freeborg.com>
+    Juha Lindfors <juha.lindfors@jboss.org>
+    Julien Viet <julien@jboss.org>
+    Justin Forder <justin@j-m-f.demon.co.uk>
+    Kabir Khan <kabir.khan@jboss.com>
+    Klaus Richarz <kr@hbt.de>
+    Krishnaraj S <krishnaraj@ieee.org>
+    Larry Sanderson <lsanders@speakeasy.net>
+    Luc Texier <luc.texier@jboss.com>
+    Luke Taylor <luke@mkeym.com>
+    Marc Fleury <marc@jboss.org>
+    Marcus Redeker <mr@gedoplan.de>
+    Mark McGregor <mark.mcgregor@par3.com>
+    Michael Barker <mike@middlesoft.co.uk>
+    Michael Newcomb <MNewcomb@tacintel.com>
+    Michel de Groot <michel.anke@wolmail.nl>
+    Nathan Phelps <nathan@jboss.org>
+    Neale Swinnerton <neale@isismanor.co.uk>
+    Noel Rocher <noel.rocher@jboss.org>
+    Norbert Lataille <Norbert.Lataille@m4x.org>
+    Oleg Nitz <on@ibis.odessa.ua>
+    Ovidiu Feodorov ovidiu@jboss.org
+    Peter Antman <peter.antman@tim.se>
+    Peter Murray <pete@subx.com>
+    Peter Fagerlund <pf@iprobot.com>
+    Ricardo Arguello  ricardoarguello@users.sourceforge.net
+    Rickard Oberg <rickard@dreambean.com>
+    Ryan Campbell <ryan.campbell@jboss.com>
+    Sacha Labourey <sacha.labourey@cogito-info.ch>
+    Scott McLaughlin. <mclaugs@comcast.com>
+    Scott Stark <scott@jboss.org>
+    Scott Marlow smarlow@novell.com
+    Sebastien Alborini <sebastien.alborini@m4x.org>
+    Simone Bordet <simone.bordet@compaq.com>
+    Spyros Pollatos <spol@intracom.gr>
+    Stale W. Pedersen <stalep@conduct.no>
+    Stan Silvert <stan@jboss.org>
+    Stefan Reich <sreich@apple.com>
+    Stephan Steinbacher <s.steinbacher@mobilcom.de>
+    Steve Ebersole <steve@hibernate.org>
+    Steve Coy <steve@resolvesw.com>
+    Thomas Diesler <Thomas.Diesler@jboss.org>
+    Thomas Peuss <jboss@peuss.de>
+    Toby Allsopp <toby.allsopp@peace.com>
+    Tom Elrod <tom.elrod@jboss.com>
+    Trevor Squires <trevor@protocool.com>
+    Ulf Schroeter <u.schroeter@mobilcom.de>
+    Vicky Kak <vicky.kak@jboss.com>
+    Vinay Menon <menonv@cpw.co.uk>
+    Vincent Harcq <vincent.harcq@hubmethods.com>
+    Vincent Sheffer <vsheffer@telkel.com>
+    Vladimir Blagojevic vladimir@xisnext.2y.net
+    Weston Price <weston.price@jboss.com>
+    William Hoyle <william.hoyle@jungledrum.co.nz>
+    Wolfgang Werner <WolfgangWerner@gmx.net>
+    Yvan Borgne <yvan.borgne@lapeyre.fr>
+
+License:
+    This library is free software; you can redistribute it and/or modify
+    it under the terms of the GNU Lesser General Public License as
+    published by the Free Software Foundation; either version 2.1 of
+    the License, or (at your option) any later version.
+ 
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    On Debian systems, full text of the LGPL license can be found at
+    `/usr/share/common-licenses/LGPL'.
+
+The Debian packaging is (C) 2007, Nicolas Blanc <sinfomicien@gmail.com> and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.

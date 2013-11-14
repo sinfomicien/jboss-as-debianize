@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+. /usr/share/debconf/confmodule
+
+useradd -u 201 -d /usr/share/jboss-as -s /bin/bash jboss-as
+install -o jboss-as -m 0755 -d /var/log/jboss-as 
+chown jboss-as: -R /var/lib/jboss-as
+chown jboss-as: -R /etc/jboss-as/standalone
+chown jboss-as: -R /etc/jboss-as/domain

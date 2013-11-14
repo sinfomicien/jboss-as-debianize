@@ -9,7 +9,7 @@ Homepage: http://www.jboss.org/jbossas/
 
 Package: jboss-as
 Architecture: all
-Depends: ${misc:Depends}, openjdk-7-jre , jboss-as-libs
+Depends: ${misc:Depends}, openjdk-7-jre-headless , jboss-as-libs
 Description: JBoss Application Server 
  A J2EE certified platform for developing and deploying enterprise Java
  applications, Web applications, and Portals, JBoss Application Server
